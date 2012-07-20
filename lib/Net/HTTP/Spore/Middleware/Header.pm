@@ -10,12 +10,18 @@ extends 'Net::HTTP::Spore::Middleware';
 has 'header_name' => (isa => 'Str', is => 'rw', required => 1);
 has 'header_value' => (isa => 'Str', is => 'rw', required => 1);
 
+=method call
+
+This method will add header_name:header_value in the header of each request
+
+=cut
 sub call {
     my ($self, $req) = @_;
 
-    $req->header($self->header_name, $self->header_value);
+    return $req->header($self->header_name, $self->header_value);
 }
 1;
+
 __END__
 
 =head1 SYNOPSIS
