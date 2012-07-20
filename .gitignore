@@ -1,0 +1,11 @@
+*.swp
+.DS_Store
+*.old
+*.bak
+*.tdy
+.build
+.includepath
+.project
+Net-HTTP-Spore-Middleware-Header-*
+xt/perltidy.rc
+xt/perlcritic.rc
