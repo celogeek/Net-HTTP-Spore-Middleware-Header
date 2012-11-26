@@ -4,7 +4,7 @@ Net::HTTP::Spore::Middleware::Header - Spore Middleware to add header on each re
 
 # VERSION
 
-version 0.01
+version 0.02
 
 # SYNOPSIS
 
@@ -27,7 +27,8 @@ This method will add header\_name:header\_value in the header of each request
 # BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-https://github.com/celogeek/Net-HTTP-Spore-Middleware-Header/issues
+http://tasks.celogeek.com/projects/perl-modules-net-http-spore-middleware-h
+eader
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
